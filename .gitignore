@@ -1,0 +1,4 @@
+venv_innocheck/
+data/pdf/219907.pdf
+data/pdf/521278.pdf
+*.dylib

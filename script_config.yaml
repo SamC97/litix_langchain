@@ -1,0 +1,15 @@
+ocr:
+  type: "tesseract"       # Use "tesseract", "easyocr" or "doctr"
+  lang: "eng"             # For Tesseract (if using EasyOCR, use lang_list: ["en"])
+  
+
+pdf_directory: "data/pdf"
+markdown_directory: "data/markdown"
+
+llm:
+  model: "qwen2.5:7b"      # The LLM model to be used ("qwen2.5:7b" or "phi4:latest")
+  max_context_size: 8192   # Maximum context size for the LLM call (2048, 4096, 8192, 16384, 32768)
+  crop_page_nb: 3          # Crop the Markdown file up to this page
+
+prompt:
+  lang: "de"               # Choose between "en" and "de"
